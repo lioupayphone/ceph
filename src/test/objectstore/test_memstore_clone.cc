@@ -178,7 +178,7 @@ int main(int argc, char** argv)
   // default to memstore
   vector<const char*> defaults{
     "--osd_objectstore", "memstore",
-    "--osd_data", "memstore.test_temp_dir",
+    "--osd_data", "test_memstore.td",
     "--memstore_page_size", "4",
   };
 
